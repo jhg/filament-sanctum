@@ -3,11 +3,11 @@
 namespace Devtical\Sanctum;
 
 use Devtical\Sanctum\Pages\Sanctum;
-use Spatie\LaravelPackageTools\PackageServiceProvider;
 use Spatie\LaravelPackageTools\Package;
+use Filament\FilamentServiceProvider;
 use Filament\Navigation\MenuItem;
 
-class SanctumServiceProvider extends PackageServiceProvider
+class SanctumServiceProvider extends FilamentServiceProvider
 {
     protected array $pages = [
         Sanctum::class,
